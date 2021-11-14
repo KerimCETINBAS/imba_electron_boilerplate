@@ -1,0 +1,21 @@
+{
+  "name": "kankam_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "concurrently \" imba build -wM -o .dev --no-hashing app/main/app.imba\" \"imba build -wM -o .dev --no-hashing app/renderer/index.html \" \"electron .dev/app/main/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "electron": "^15.3.1",
+    "electron-reloader": "^1.2.1",
+    "imba": "^2.0.0-alpha.186"
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0"
+  }
+}
