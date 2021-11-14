@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "concurrently \" imba build -wM -o .dev --no-hashing app/main/app.imba\" \"imba build -wM -o .dev --no-hashing app/renderer/index.html \" \"electron .dev/app/main/app.js\"",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	],
+	
+    "files.associations": {
+        "*.imba": "imba1"
+    },
+	
+
+}
