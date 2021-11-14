@@ -4,6 +4,6 @@
 ## 1. clone this repository
 > ``git clone https://github.com/KerimCETINBAS/imba_electron_boilerplate.git app`` 
 ## 2. 
-> ``npm install``
+> ``cd app && npm install``
 ## 3. 
 > ``npm run dev``
